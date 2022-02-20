@@ -1,0 +1,82 @@
+*{
+  font-family: Poppins;
+}
+
+.body{
+  padding: 40px 100px;
+}
+
+.header-menu{
+  align-items: center;
+}
+
+.nav__menu-item{
+  margin: 16px;
+}
+
+.actions{
+  margin-left: 30px;
+}
+
+.section-1{
+  margin-top: 60px;
+}
+
+.btn{
+
+}
+
+.header-btn{
+  margin-left: 15px;
+}
+
+.heading-1{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 54px;
+}
+
+
+
+.text-1{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+
+
+.design-card{
+  padding: 70px 0;
+}
+
+.icon{
+  background: #FF9900;
+  border-radius: 1.125px;
+  transform: rotate(90deg);
+}
+
+.link-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #FF9900;
+}
+
+.card-action-button{
+  padding: 10px 41px;
+  margin-right: 30px;
+}
