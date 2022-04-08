@@ -1,0 +1,120 @@
+* {
+    font-family: Roboto;
+}
+body {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 1920px;
+    height: 937px;
+}
+.header{
+    padding: 10px 35px 0 45px;
+    height: 60px;
+    width: 100%;
+}
+
+.documentation{
+    margin-left: 40px;
+}
+
+.line {
+    width: 80px;
+    height: 0;
+    border: 6px solid #000000;
+    background-color: #000;
+    position: relative;
+    top: 12px;
+    margin-right: 10px;
+}
+
+.heading {
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.heading-text {
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+}
+
+.section {
+    border-top: 1px solid #BFBFBF;
+}
+
+.second-section {
+    border-bottom: 1px solid #BFBFBF;
+    margin-bottom: 100px;
+}
+
+.card-container {
+    position: relative;
+    width: 440px;
+    height: 280px;
+    perspective: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.card-inner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.card-container:hover .card-inner {
+    transform: rotateX(180deg);
+}
+
+.card-inner-front, .card-inner-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.card-inner-front{
+    width: 440px;
+    height: 280px;
+    background-color: #E6E6E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.card-inner-back {
+    transform: rotateX(180deg);
+    width: 440px;
+    height: 280px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.spotify-front {
+    width: 440px;
+    height: 280px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.spotify-back {
+    width: 440px;
+    height: 280px;
+    background-color: #E6E6E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
